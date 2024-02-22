@@ -13,6 +13,7 @@ fn read_file(file_path:&Path) -> File{
     };
 }
 //description: This function takes in a file path and if it can find the file, returns the file type, otherwise it exits the program
+//example: input = read_file(Path::new("C:\Users\ashka\Downloads\Research_On_Cat_Face_Recognition.pdf")) output = File
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -34,5 +35,5 @@ fn main() {
     //this chunk of code attempts to retrieve the file path from arguments. If the user doesn't put in a file path as an argument, it exits the program. If the file path is valid, it sends the path to the readFile function
 }
 
-//to run, add a file path as an argument after cargo run
+//description: to run, add a file path as an argument after cargo run
 //example: cargo run "C:\Users\ashka\Downloads\Research_On_Cat_Face_Recognition.pdf"
