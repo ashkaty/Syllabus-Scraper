@@ -1,0 +1,1 @@
+C:\Users\ashka\Documents\Coding\Syllabus_Scraper\Syllabus-Scraper\syllabus_scraper\target\debug\syllabus_scraper.exe: C:\Users\ashka\Documents\Coding\Syllabus_Scraper\Syllabus-Scraper\syllabus_scraper\src\main.rs
